@@ -22,7 +22,7 @@
   #include <v8runtime/V8RuntimeFactory.h>
 #else
   // JSC
-  #include <jsi/JSCRuntime.h>
+  #include "JSCRuntime.h"
 #endif
 
 using namespace facebook;
